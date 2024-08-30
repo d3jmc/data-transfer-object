@@ -1,0 +1,24 @@
+{
+    "name": "d3jmc/data-transfer-object",
+    "description": "Easily manage Data Transfer Objects in PHP.",
+    "keywords": ["php", "data transfer object", "dto"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/d3jmc/data-transfer-object/issues",
+        "source": "https://github.com/d3jmc/data-transfer-object"
+    },
+    "authors": [
+        {
+            "name": "Dom McLaughlin",
+            "email": "dom@d3j.digital"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "D3jmc\\DataTransferObject\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
